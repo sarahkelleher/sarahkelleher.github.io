@@ -1,46 +1,312 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Cuisine Moi!</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
-	</head>
-		<body>
-			<h1>Cuisine Moi</h1>
-			<img src="https://www.discoverwalks.com/blog/wp-content/uploads/2015/07/paris-at-night-big.jpg" alt="parisatnight">
-				<div class="topnav" id="myTopnav">
-					<a href="#aboutme">About Me</a>
-					<a href="#recipes">Recipes</a>
-					<a href="#blog">Blog</a>
-					<a href="#contact">Contact</a>
-				</div>
-				<h2>About Me</h2>
-				<p>Ever since I was a little girl I have been deeply passionate about food. My childhood was largely spent scurrying between the restaurants of Hong Kong, where I grew up, and the bistros of Paris and the south of France where we spent our holidays at my French grandmother’s. Food was constantly on my mind, I’m the girl who was always happiest at the table. After a life full of adventure and travel, a career in fashion, media and television, I settled down in Paris. A big family needs a lot of space, not least when you have 4 terriers in Paris of all places. So we went looking for a bigger place to live, and found one … in Médoc. Moving to the country was not planned at all, but we took the leap and it’s been some sort of fairytale ever since – you should try it! I’ve been doing a lot of cooking in these last four years, to glowing reviews (my family are very kind) and around 2 years ago I felt the need to share my culinary experiences with some friends and perhaps a few others. So Manger was born and while the rest may not be history it’s my story and my family’s. We are as happy as ever, up to no good, living with 14 amazing dogs, Fox Terriers, Jack Russell’s and one chocolate-colored German pointer called Gertrud. She thinks she’s a terrier by the way.</p>
-				<h2>Recipes</h2>
-					<h3>Bouillabaisse</h3>
-						<ol>
-							<li>1 live lobster</li>
-							<li>2 large tomatoes</li>
-							<li>1 large onion</li>
-							<li>4 garlic cloves</li>
-							<li>1/2 cup extra-virgin olive oil</li>
-							<li>1 lb boiling potatoes</li>
-							<li>1 cup finely chopped fennelfronds</li>
-							<li>9 cupos white fish stock</li>
-						</ol>
-					<p><break>Plunge lobster headfirst into a 6- to 8-quart pot of boiling water, then cook, covered, 2 minutes from time lobster enters water. Transfer lobster with tongs to a colander and let stand until cool enough to handle. Discard hot water in pot. Put lobster in a shallow baking pan. Twist off claws with knuckles from body, then crack claws with a mallet or rolling pin and separate claws from knuckles. Halve body and tail lengthwise through shell with kitchen shears, then cut crosswise through shell into 2-inch pieces. Reserve lobster juices that accumulate in baking pan.</break>
-					<break>Cook tomatoes, onion, and garlic in oil in cleaned 6- to 8-quart pot over moderate heat, stirring occasionally, until onion is softened, 5 to 7 minutes. Meanwhile, peel potatoes and cut into 1/2-inch cubes. Stir potatoes into tomatoes with fennel fronds, bay leaf, saffron, sea salt, and pepper. Add stock and bring to a boil, then reduce heat and simmer, covered, until potatoes are almost tender, 8 to 10 minutes.</break>
-					<break>Add thicker pieces of fish and cockles to soup and simmer, covered, 2 minutes. Stir in mussels, shrimp, lobster, including juices, and remaining fish and simmer, covered, until they are just cooked through and mussels open wide, about 5 minutes.</break>
-					<break>Stir 3 tablespoons broth from soup into rouille until blended.</break>
-					<break>Arrange 2 croutons in each of 6 to 8 deep soup bowls. Carefully transfer fish and shellfish from soup to croutons with a slotted spoon, then ladle some broth with vegetables over seafood.</break>
-					<break>Top each serving with 1 teaspoon rouille and serve remainder on the side.</break></p>
-						<h2>Blog</h2>
-							<P>Médoc is not only famous for its fine wines but also for some of the best oysters in the world. There are about 350 oyster farmers on the Arcachon Basin producing 10,000 tonnes of oysters a year. The basin has an enclosed bay with an ideal temperature for oyster farming. Oysters are sold everywhere, from markets to any street corner, and during the autumn season, stalls are setting up ‘en force’, getting ready for the winter, where oysters are the main attraction for the festivities of Christmas and New Year’s eve. In summer, the markets open little stalls where you can sit and have plates of oysters, served with a small glass of crisp and fresh white wine. Yesterday, I couldn’t resist buying ‘take-away’ oysters and have them at home for starters. I always serve them with lemons and a red wine vinegar/chopped shallots sauce.
+<head>
+	<meta name=“viewport” content="initial-scale=1.0"> 
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/mobile.css"> -->
+	<link href='http://fonts.googleapis.com/css?family=Poppins' rel='stylesheet' type='text/css'>
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<meta charset="utf-8">
 
-We love going to Cap-Ferret on summer week-ends – it is about an hour’s drive from where we live. Cap-Ferret is renowned for its understated chic, beautiful white sand beaches, amazing pine forests, sand dunes and little oysters cabanons (sheds built on piles with rounded tiles). It is an idyllic place, like a venetian lagoon, where you get a taste of French paradise.</P>
-						<h2>Contact</h2>
-							<p></p>
-			<div></div>
-			<footer></footer>
-		</body>
-	
+<title>La Fenetre</title>
+</head>
+	<body>
+
+		<div class="pageHeader"> <!-- class="page-header"  -->
+  			<h1><em>La Fenetre<em></h1>
+        <img src="img/2C2A052756.svg" height="200px">
+  			<h4>french-inspired, northwest ingredient-focused fare</h4>
+  			<h5>5519 ne 301th ave., portland, oregon 97000 </h5>
+  			<!-- <p class="info">5519 ne 301th ave., portland, oregon 97000 </p> -->
+  			<hr></hr>
+		</div>
+
+		<nav class="Menu">
+						<ul class="menubar" id="menulink">
+					  		<!-- <button type="button" class="btn btn-default navbar-bt">Food</button> -->
+                <a class="btn btn-default" href="#box1" role="button">Food</a>
+					  		<a class="btn btn-default" href="#box2" role="button">Drinks</a>
+					  		<a class="btn btn-default" href="#box3" role="button">Chefs</a>
+					  		<a class="btn btn-default" href="#box5" role="button">Subscribe</a>
+					  		<a class="btn btn-default" href="#box4" role="button">About</a>
+						</ul>
+		</nav>
+    
+
+		<header>
+
+			<!-- <div class="name"> -->
+		        <!-- <h1><em>La Fenetre</em></h1> -->
+		        <!-- <h1>La Fenetre</h1> -->
+		        <!-- <p class="info">5519 ne 301th ave., portland, oregon 97000 </p> -->
+			<!-- </div>  -->
+
+			<div class="container">
+			<br>
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			    <!-- Indicators -->
+			    <ol class="carousel-indicators">
+			      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			      <li data-target="#myCarousel" data-slide-to="1"></li>
+			      <li data-target="#myCarousel" data-slide-to="2"></li>
+			      <li data-target="#myCarousel" data-slide-to="3"></li>
+			    </ol>
+
+    <!-- Wrapper for slides -->
+    
+    		<div class="carousel-inner" role="listbox">
+      		<div class="item active">
+
+        		<img src="img/pretty.jpg" alt="pretty" width="500" height="345">
+        		<div class="carousel-caption">
+        	</div>
+      	</div>
+      <div class="item">
+        <img src="img/outside.jpg" alt="outside" width="500" height="345">
+        <div class="carousel-caption">
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/night.jpg" alt="night" width="500" height="345">
+        <div class="carousel-caption">
+     	  </div>
+      </div>
+      <div class="item">
+        <img src="img/menu.jpg" alt="menu" width="500" height="345">
+        <div class="carousel-caption">
+        </div>
+      </div>
+    </div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+		</header>
+			<div id="contentLayer"></div> <!-- layed over content so that it is unclickable while menu is shown -->
+		<!-- <article id="content"> -->
+					<!-- <nav class="Menu">
+						<ul class="menubar" id="menulink">
+					  		<button type="button" class="btn btn-default navbar-btn">Food</button>
+					  		<button type="button" class="btn btn-default navbar-btn">Wine</button>
+					  		<button type="button" class="btn btn-default navbar-btn">Chefs</button>
+					  		<button type="button" class="btn btn-default navbar-btn">Contact Us</button>
+						</ul>
+					</nav> -->
+			<!-- <section>
+				<div id="intro"> -->
+				<!-- <p><em>
+				french-inspired, northwest ingredient-focused fare
+				</em></p> -->
+			<!-- 	<p>
+				At La Fenetre we embrace the french cuisine with a northwest flare. La fenetre means window and in our minds food can be that window opening you up to another world. Chef Jacques Lemerre and Melanie Cousteau create weekly menus that reflect their love for the seasonal flavors of Oregon as well as the french countryside. The freshest local produce,organic, pasture-raised meats from our favorite farms are thoughtfully paired with outstanding wines and delicate cocktails to please and delight the senses. A meal at La Fenetre is an intimate  experience.Our wine and cocktail lists take their cues from the kitchen and are tastefully selected by wine director Lara Lee Mosley. We look forward to serving you soon.
+				</p>
+				</div>
+			</section>
+			<section>
+				<div id="Food"
+				<p>Food menu goes here</p>
+				</div>
+				
+			</section>
+			
+			<section>
+				<div id="Drink"
+				<p>drink menu goes here</p>
+				</div>
+			</section>
+			<section>
+				<div id="Chefs"
+				<p>chef detail goes here</p>
+				</div>
+
+			</section>
+			<section></section>
+		</article> -->
+
+		<div class="row">
+			<div class = "col-md-6 col-md-offset-3" id= "box1">
+		<h2>Food</h2>
+        <p>
+          <h3>Dinner Menu</h3>
+              <ul id="list1">
+                <li>Field Greens banyuls vinaigrette, Le Chevrot $9</li>
+                <li>Little Gem Lettuce pickled shrimp, green goddess, radish, cucumber $12</li>
+                <li>Mussels & Frites* green garlic, peas, mint $18</li>
+                <li>Crispy Potato & Lamb Tongue Salad frisée, avocado, dijon-terragon vinaigrette $12</li>
+                <li>Steak Tartare yolk, fines herbs, aged goat cheese* $15</li>
+                <li>Lox & Baby Beets pistachio, raspberry, oyster emulsion $12</li>
+                <li>Roasted Marrow Bones walla walla onions, smoked honey mustard * $19</li>
+                <li>Seared Foie Gras lentils, strawberry chutney, chicken skin, lovage $22</li>
+                <li>Truffled Foie Gras au Torchon olive oil crostini, seasonal jam $18</li>
+                <li>Daily Fish market price</li>
+                <li>Chicken-Fried Trout pickled carrots, fines herbes, radishes, dijon, gribiche* $24</li>
+                <li>Fried Chicken “Coq au Vin”pommes raclette, bacon glazed mushrooms,rosemary-balsamic jus $25</li>
+                <li>Duck Confit green beans, pickled cherries, hazelnut, smoked foie gras vinaigrette $29</li>
+                <li>Brioche Bread Pudding corn, chantrelles, green beans, summer truffle $22</li>
+                <li>Roasted Pork Stew peas, carrots, dill, garlic-butter orzo $24</li>
+                <li>Hanger Steak Au Poivre* frites, goat cheese $27 Baguette Jambon de Paris gruyère, dijon, greens $9</li>
+            </ul>
+          <br>
+            <h3>Dessert Menu</h3>
+              <ul id="list2">
+                <li>Chocolate & Dulce de Leche Ice Cream Cake
+                <li>salted orange caramel, peanut & chocolate nougat..$10</li>
+                <li>Port, 10 year old Tawny, Ramos Pinto NV...$12</li>
+                <li>Coffee Crème Brûlée cinnamon doughnuts........$10</li>
+                <li>Madeira, Boston Bual, Rare Wine Co., NV.......$11</li>
+                <li>Berry & Mascarpone Tart vanilla ice cream, St, Germain, thyme crumble...$10</li>
+                <li>Gewürztraminer, Brooks, ‘12, Columbia Gorge...$11</li>
+                <li>Coconut-Mango Parfait coconut panna cotta, guava caramel, puffed rice cookie...$10</li>
+                <li>Monbazillac, Ch. La Haute Borie, ‘10, Bordeaux........9</li>
+                <li>Bonbons de la Maison Little Bird daily confections.....$10</li>
+                <li>Port, Colheita, Kopke, ‘91...16</li>
+            </ul>
+          </p>
+  </div>
+
+  <div class = "col-md-6 col-md-offset-3" id= "box2">
+  <h2>Drinks</h2>
+      <p>
+      <ul id="list3">
+        <li>Blanc de Noirs -- King Estate -- ‘08 Willamette Valley...............$15 $60</li>
+        <li>Vouvray Brut -- Foreau -- '10 Loire.................$20 $80</li>
+        <li>Extra Brut -- Blanc de Noir Pur Meunier-- NV Champagne.............$25 $100</li>
+        <li>Alvarinho -- Nortico -- '13 Minho...................$10 $40</li>
+        <li>Muscadet -- Le Fief du Breil ---- ‘09 Loire.............$12 $48</li>
+        <li>Petit Chablis -- Domaine des Malandes -- '13 Burgundy..................$11 $44</li>
+        <li>Riesling Kabinett -- Kallstadter Steinacker -- Koehler-Ruprecht '13 Pfalz.....$14 $56</li>
+        <li>Moscofilero -- Domaine Skouras -- ‘14 Peloponnese................$11 $44</li>
+        <li>Chardonnay -- Freedom Hill Vineyard -- ‘13 Willamette.......$15 $60</li>
+        <li>Vernacia di San Gimignano -- Fiore --‘09 Tuscany......$13 $52</li>
+        <li>Côtes de Thongue Rosé (Grenache/Syrah) -- Dom. Montmarin -- ‘14........$9 $36</li>
+        <li>Pinot Rosé -- Elke Home Ranch -- County Line -- '14 Anderson Valley, CA.....$14 $56</li>
+        <li>Pinot Noir -- Arterberry Maresh -- ‘13 Dundee Hills.......................$14 $56</li>
+        <li>Pinot Noir -- Sommers Reserve -- Cristom -- ‘09 Eola Amity Hills................$20 $80</li>
+        <li>Brouilly -- L'Enfer des Balloquetts -- Robert Perroud -- '13 Beaujolais........$10 $40</li>
+        <li>Touraine Côt (Malbec) -- Cent Visages -- Jean-François Mérieau -- ‘10 Loire....$13 $52</li>
+      </ul>
+      </p>
+  </div>
+
+  <div class = "col-md-6 col-md-offset-3" id= "box3">
+  <h2>Chefs</h2>
+      <p>Chef Jacques Lemerre spent two years at Paley’s Place before moving to New York City to begin his formal training at the French Culinary Institute. Brian’s love of butchery led him to Brooklyn’s renowned Heritage Foods USA. There he worked directly with farmers, breeders and butchers devoted to raising and producing heritage breeds of pork, beef and lamb
+      <br><br>
+      Chef Melanie Cousteau grew up in Salem, Oregon and attended Grinell College where she majored in Chinese and Anthropology. While attending school, she started working in restaurants and soon found it to be more fun than what she was studying at the time. It was during her fellowship in France, that she began working in a kitchen and bar for fun and knew she wanted to try it out. She came back to the Pacific Northwest, and attended culinary school at Le Cordon Bleu.</p>
+  </div>
+    <div class = "col-md-6 col-md-offset-3" id= "box4">
+  <h2>About</h2>
+      <p>At La Fenetre we embrace the french cuisine with a northwest flare. La fenetre means window and in our minds food can be that window opening you up to another world. Chef Jacques Lemerre and Melanie Cousteau create weekly menus that reflect their love for the seasonal flavors of Oregon as well as the french countryside. The freshest local produce,organic, pasture-raised meats from our favorite farms are thoughtfully paired with outstanding wines and delicate cocktails to please and delight the senses. A meal at La Fenetre is an intimate  experience.Our wine and cocktail lists take their cues from the kitchen and are tastefully selected by wine director Lara Lee Mosley. We look forward to serving you soon.
+      <br><br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793.367761350971!2d-122.63516820000001!3d45.563042599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495a6e77125fcb3%3A0x708a1eeca18b88c2!2s5519+NE+30th+Ave%2C+Portland%2C+OR+97211!5e0!3m2!1sen!2sus!4v1435276345228" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+  </div>
+</div>
+
+		<!-- <form class="form-inline" role="form">
+		    <div class="form-group">
+		      <label for="email">Subscribe:</label>
+		      <input type="email" class="form-control" id="email" placeholder="Enter email">
+		    </div>
+    
+  		</form> -->
+	</body>
+
+
+<div class="container">
+        <div class="col-sm-8 col-sm-offset-2 text-center">
+        <hr></hr>
+             <h3 class="">Don't miss a thing</h3>
+
+           <!--  <hr class="">
+             <h4 class="">
+        We love templates. We love Bootstrap.
+      </h4> -->
+      
+      <form class="form-inline" role="form">
+		    <div class="form-group" id="box5">
+		      <label for="email">Subscribe:</label>
+		      <input type="email" class="form-control" id="email" placeholder="Enter email">
+		    </div>
+    
+  		</form>
+
+            <!-- <p class="">Get more free templates like this at the <a href="http://bootply.com" class="">Bootstrap Playground</a>,
+                Bootply.</p> -->
+            <!-- <hr class=""> -->
+            <div class="socialLinks">
+            <ul class="list-inline center-block">
+                <li><a href="[https://www.facebook.com/pages/DOC/93574054007]">
+                    <img title="Facebook" alt="Facebook" src="https://socialmediawidgets.files.wordpress.com/2014/03/facebook1.png" width="35" height="35" /></a>
+                </li>
+                <li><a href="[https://twitter.com/docpdx]">
+                    <img title="Twitter" alt="Twitter" src="https://socialmediawidgets.files.wordpress.com/2014/03/twitter1.png" width="35" height="35" />
+                </li>
+                <li><a href="[https://www.linkedin.com/nhome/]">
+                    <img title="LinkedIn" alt="LinkedIn" src="https://socialmediawidgets.files.wordpress.com/2014/03/linkedin1.png" width="35" height="35" /></a>
+                </li>
+            </ul>
+            </div>
+        </div>
+        <!--/col-->
+    </div>
+    <!--/container-->
+</div>
+<!--/wrap-->
+<!-- <div id="footer" class="">
+    <div class="container">
+        <p class="text-muted">This Bootstrap Example courtesy <a href="http://www.bootply.com" class="">Bootply.com</a>
+        </p>
+    </div>
+</div> -->
+<!-- <ul class="nav pull-right scroll-top" style="display: none !important;">
+    <li><a href="#" title="Scroll to top" style="display: none !important;" class=""><i class="glyphicon glyphicon-chevron-up"></i></a>
+    </li>
+</ul> -->
+
+
+
+<!-- <div id="footer">
+      <div class="end">
+        <p>testing this</p>
+      </div>
+</div> -->	
+
+<div id="footer">
+<div class = "col-sm-4" id= "footer1">
+<div style="border-right:medium #5d8aa8 solid; height:250px;" />
+  <h4>Hours</h4>
+      <p>tues - fri: 6pm - close</p>
+      <p>sat: 4pm - close</p>
+      <p>sun: 3pm - 8pm</p>
+  </div>
+</div>
+<div class = "col-sm-4" id= "footer2">
+
+  <h4>Location</h4>
+      <p>5519 ne 301th ave., portland, oregon 97000 </p>
+      
+  </div>
+  <div class = "col-sm-4" id= "footer3">
+  <div style="border-left:medium #5d8aa8 solid; height:250px;" />
+  <h4>Reservations</h4>
+      <!-- <p>La Fenetre Reservations</p> -->
+      <a href="http://www.opentable.com/home.aspx?restref=51496&amp;rtype=ism" title="Powered By OpenTable">
+		<img src="http://www.opentable.com/img/buttons/Otlogo.gif" id="OT_imglogo" alt="Restaurant Management Software">
+		</a>
+  </div>
+<!-- </div>
+      <div class="container">
+        <p class="muted credit">La Fenetre | 5519 ne 301th ave., portland, oregon 97000 </p>
+      </div>
+</div> -->
+
 </html>
